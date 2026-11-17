@@ -4,6 +4,7 @@ import { getAllCountries, getCountryForTimezone, getTimezonesForCountry, type Co
 import { cities, type ClockCity } from './data'
 import DayNightMap, { countryCodeAtLocation, type MapLocation } from './DayNightMap'
 import { clockParts, offsetLabel } from './lib/time'
+import logoUrl from '../logo.png'
 import SiteFooter from './SiteFooter'
 import UploadTimePage, { type UploadMarketFavorite } from './UploadTimePage'
 
@@ -216,7 +217,7 @@ function App() {
       <header className="site-header">
         <div className="brand-group">
           <a className="brand" href="/" aria-label="tierOne home">
-            <span className="brand-mark"><Clock3 size={20} /></span>
+            <span className="brand-mark"><img src={logoUrl} alt="" /></span>
             <span className="brand-name">tier<span>One</span></span>
           </a>
           <span className="live-indicator" aria-label="Live"><i /> Live</span>

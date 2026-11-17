@@ -1,5 +1,6 @@
 import { type FormEvent } from 'react'
 import { Github, Mail } from 'lucide-react'
+import logoUrl from '../logo.png'
 
 const externalLink = { target: '_blank', rel: 'noopener noreferrer' }
 const contactEmail = 'contact.vferdz@gmail.com'
@@ -20,7 +21,7 @@ export default function SiteFooter() {
     <footer className="site-footer">
       <div className="site-footer-content">
         <div className="site-footer-brand">
-          <a href="https://github.com/iamvferdz" {...externalLink}><Github size={16} /> VFERDZ</a>
+          <a href="https://github.com/iamvferdz" aria-label="VFERDZ on GitHub" {...externalLink}><img src={logoUrl} alt="" /><Github size={15} /> VFERDZ</a>
           <p>tierOne · World clocks for content creators</p>
         </div>
 

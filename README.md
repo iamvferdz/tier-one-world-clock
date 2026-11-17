@@ -36,6 +36,7 @@ npm run preview
 - Automatic daylight-saving adjustments.
 - No account, sign-in, backend, or YouTube integration is required.
 - Find VFERDZ's membership, social, GitHub, and contact links in the shared footer; the business-inquiry form opens a prefilled email draft in the visitor's email app.
+- Display the VFERDZ logo in the site header and footer, and use it as the browser icon.
 
 ## License
 

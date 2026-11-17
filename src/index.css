@@ -21,7 +21,8 @@ a { color: inherit; text-decoration: none; }
 .brand-group { display: flex; align-items: center; justify-self: start; gap: 13px; }
 .brand { display: flex; align-items: center; gap: 11px; font-size: 15px; font-weight: 650; letter-spacing: -.3px; }
 .brand-name span { color: var(--accent); }
-.brand-mark { width: 35px; height: 35px; display: grid; place-items: center; border-radius: 10px; color: white; background: linear-gradient(145deg,#fa7067,#d83f39); }
+.brand-mark { width: 35px; height: 35px; display: grid; place-items: center; overflow: hidden; border-radius: 10px; background: #101011; }
+.brand-mark img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .site-nav { display: flex; align-items: center; justify-self: center; gap: 5px; }
 .site-nav button { min-height: 34px; display: inline-flex; align-items: center; gap: 7px; padding: 0 11px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: var(--muted); font-size: 10px; }
 .nav-label-short { display: none; }
@@ -258,6 +259,7 @@ a { color: inherit; text-decoration: none; }
 .site-footer { margin-top: 40px; border-top: 1px solid var(--line); background: var(--surface); }
 .site-footer-content { max-width: 1180px; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 25px; margin: 0 auto; padding: 30px; }
 .site-footer-brand > a { display: inline-flex; align-items: center; gap: 7px; color: var(--text); font-size: 14px; font-weight: 700; }
+.site-footer-brand > a img { width: 34px; height: 34px; border-radius: 8px; object-fit: cover; }
 .site-footer-brand > p,.site-footer-section > p { margin: 8px 0 0; color: var(--muted); font-size: 9px; line-height: 1.55; }
 .site-footer-section { min-width: 0; }
 .site-footer-section h2 { margin: 0 0 8px; color: var(--text); font-size: 10px; font-weight: 700; }
